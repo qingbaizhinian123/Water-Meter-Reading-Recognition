@@ -4,6 +4,7 @@ Our process is mainly divided into three stages, which are the detection stage o
 CRAFT: Character-Region Awareness For Text detection | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)
 
 First, you can run file (det.py) to get the detection area of the water meter reading, then, you can run file (test.py) to get the location information of a single character, combine these two parts to get the character area, and finally, you can pass the character through file (rec.py) to get the character recognition result.
+We have uploaded the dataset and process data of our experiments, and more information can be downloaded from https://pan.quark.cn/s/2d95919def6d.
 
 ##Requirement
 CUDA 11.6
